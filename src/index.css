@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  text-decoration: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul li{
+  padding-left: 8px;
+  padding-right: 8px;
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+}
+.nav-bar{
+  height: 80px;
+  background-color: rgb(14, 14, 14);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }

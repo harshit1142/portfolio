@@ -1,8 +1,10 @@
+import Navbar from "./Components/Navbar";
+import Home from "./Screens/Home";
 
 
 function App() {
   return (
-   <h1>HP</h1>
+      <Home />
   );
 }
 
