@@ -6,8 +6,8 @@ export default function Head() {
     <div className='bg-dark text-white head d-flex justify-content-center align-items-center' >
         <div className='box container-fluid'>
              <div className="row">
-                <div className="col-6 content">
-                      <h1 className='fs-3 text-info mb-3'>Hi,My Name is Harshit Pandey !</h1>
+                <div className="col-lg-8 col-md-6 content p-4">
+                      <h1 className='fs-3 text-info mb-3'>Hi, My Name is Harshit Pandey !</h1>
                       <p>An Enthusiastic student currently embarking on a journey of exploration 🚀 across various tech stacks. With a strong emphasis on user-friendly website and Web Application development.</p>
                       <a href="#contact" className='btn btn-success m-3'>Contact Me</a>
                       <button href="#" className='btn btn-warning m-3  cv' disabled>CV / Resume</button>

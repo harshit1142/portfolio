@@ -9,7 +9,6 @@ export default function Navbar() {
                 <ul className='col fs-5  d-flex flex-wrap align-content-center text-warming'>
                     <li><a href="#home" className='btn btn-outline-light' >HOME</a></li>
                     <li><a href="#about" className='btn btn-outline-light'>ABOUT</a></li>
-                    <li><a href="#skill" className='btn btn-outline-light'>SKILL</a></li>
                     <li><a href="#education" className='btn btn-outline-light'>EDUCATION</a></li>
                     <li><a href="#project" className='btn btn-outline-light'>PROJECTS</a></li>
                     <li><a href="#contact" className='btn btn-outline-light'>CONTACT</a></li>
