@@ -3,18 +3,18 @@ import { FaNode,FaHtml5,FaCss3Alt,FaJava,FaBootstrap ,FaJs,FaGitAlt,FaPython,FaR
 import { DiMongodb,DiNpm } from "react-icons/di";
 export default function About() {
   return (
-    <div className='container-fluid about bg-primary ' id="about">
+    <div className='container-fluid about  ' id="about">
     <div className='p-4 d-flex justify-content-center '>
-      <h1 className='text-decoration-underline fw-bold text-'>About Me 👨🏻‍💻</h1>
+      <h1 className='text-decoration-underline fw-bold text-warning'>About Me 👨🏻‍💻</h1>
     </div>
         <div className="box d-flex justify-content-center align-items-center w-100 h-100">
           <div className="row">
-                 <div className="col-lg-6 col-md-6  fs-5 text-white">
+                 <div className="col-lg-6 col-md-6 col-sm-auto fs-5 text-white">
                      <ul>
                       <li>🎓   I'm currently studying at Motilal National Institute of Technology, Allahabad, India.</li>
                       <li>💡   I like to explore new technologies and develop web apps.</li>
                       <li>🌱   I'm on track to learning more about Web and UI design.</li>
-                      <li>✍️   Programming is the most important part of my life, but not the only one, I also play badminton and cricket as hobbies .</li>
+                      <li>✍️   Programming is the most important part of my life, but I also play badminton and cricket as hobbies .</li>
                       
                      </ul>        
                  </div>
@@ -36,6 +36,7 @@ export default function About() {
                  </div>
           </div>
         </div>
+      
     </div>
   )
 }

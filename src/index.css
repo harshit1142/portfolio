@@ -25,22 +25,50 @@ a{
 .nav-bar{
   height: 80px;
   background-color: rgb(14, 14, 14);
-  overflow: hidden;
   position: sticky;
   top: 0;
   z-index: 10;
 }
 .head{
   width: 100%;
-  height: 500px;
+  height: 700px;
 }
 .style-border{  
   border: 13px solid wheat;
 }
-.about{
-  
-  
+.pro-img{
+width:261px;
+height:311px;
+}
+.ic{
+  color: white;
 }
 .ic:hover{
    color: rgba(227, 251, 7, 0.954);
+}
+.about{
+  background-image: linear-gradient(to right, #141e30, #243b55);
+}
+.edu{
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  /* background :linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+}
+.edu .img img{
+  width: 134px;
+  height: 150px;
+}
+/* @media screen and (max-width: 859px) and (min-width:770px) {
+
+  .style-border{
+    border: 7px solid white;
+  }
+  .pro-img{
+    width: 200px;
+    height: 311px;
+  }
+} */
+@media screen and (max-width: 796px)  {
+  .navlink ul{
+    display: block;
+  }
 }
