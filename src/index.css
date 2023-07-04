@@ -51,7 +51,6 @@ height:311px;
 }
 .edu{
   background-image: linear-gradient(to right, #141e30, #243b55);
-  /* background :linear-gradient(to right, #0f0c29, #302b63, #24243e); */
 }
 .edu .img img{
   width: 134px;
@@ -71,4 +70,13 @@ height:311px;
   .navlink ul{
     display: block;
   }
+}
+.card{
+  box-shadow: 3px 3px 5px rgb(57, 238, 84);
+}
+.card:hover{
+  box-shadow: 3px 3px 5px rgb(225, 45, 5);
+}
+.project{
+  background :linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
