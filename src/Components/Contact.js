@@ -20,7 +20,7 @@ export default function Contact() {
                 </div> 
                 <div className='content col-auto p-4'>
                     <p>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
-                    <h4></h4>
+                    <h4>""</h4>
                 </div>
              </div>
                 <div className='row d-none d-md-block d-lg-block'>
