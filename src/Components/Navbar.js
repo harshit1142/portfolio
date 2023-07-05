@@ -21,7 +21,7 @@ export default function Navbar() {
           <a className="nav-link text-white btn btn-outline-primary" href="#project">PROJECTS</a>
         </li>       
         <li className="nav-item">
-          <a className="nav-link  text-white btn btn-outline-primary" href="#achievement" tabindex="-1" aria-disabled="true">ACHIEVEMENTS</a>
+          <a className="nav-link disabled text-white btn btn-outline-primary" href="#achievement" tabindex="-1" aria-disabled="true">ACHIEVEMENTS</a>
         </li>
         <li className="nav-item">
           <a className="nav-link text-white btn btn-outline-primary" href="#contact">CONTACT</a>

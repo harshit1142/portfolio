@@ -34,11 +34,27 @@ a{
   height: 700px;
 }
 .style-border{  
-  border: 13px solid wheat;
+  /* border: 13px solid wheat; */
+
 }
-.pro-img{
+.pro-img ,.s-pro-img{
 width:261px;
 height:311px;
+border-radius: 45% 55% 22% 78% / 28% 13% 87% 72% ;
+animation: animate 3s ease-in-out  infinite ;
+}
+@keyframes animate {
+  0%{
+    box-shadow: 2px 2px 7px rgb(228, 83, 4);
+  }
+  33.33%{
+    box-shadow: 2px 2px 10px rgb(244, 241, 239);
+  }
+  66%{
+    
+    box-shadow: 2px 2px 12px rgb(0, 255, 4);
+  }
+
 }
 .ic{
   color: white;
@@ -79,4 +95,13 @@ height:311px;
 }
 .project{
   background :linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.contact{
+  height: auto;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.s-pro-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }

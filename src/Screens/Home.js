@@ -4,6 +4,7 @@ import Head from '../Components/Head'
 import About from '../Components/About'
 import Education from '../Components/Education'
 import Project from '../Components/Project'
+import Contact from '../Components/Contact'
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
          <About />
          <Education />
          <Project />
+         <Contact />
     </div>
   )
 }
