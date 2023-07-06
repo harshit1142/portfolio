@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className='container-fluid contact text-white  ' id="contact">
         <div className="conatiner-fluid  ">
-            <div className="row pt-5">
+            <div className="row pt-3">
                 <h1>Reach Out To Me !!</h1>
             </div>
             <div className="row d-flex flex-row  flex-wrap justify-content-center p-2 pt-3">
@@ -19,8 +19,8 @@ export default function Contact() {
                          </ul>
                 </div> 
                 <div className='content col-auto p-4'>
+                    <h4>"A Learner ..."</h4>
                     <p>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
-                    <h4>""</h4>
                 </div>
              </div>
                 <div className='row d-none d-md-block d-lg-block'>
@@ -34,7 +34,7 @@ export default function Contact() {
         <div className="container-fluid pt-5">
             <div className="row">
             <div className='icon d-flex flex-column align-content-center  flex-wrap justify-content-center'>
-                <h5> <AiOutlineCopyrightCircle /> Made In 2023 </h5>
+                <h5> <AiOutlineCopyrightCircle /> Made with 💗 by Harshit Pandey. </h5>
                 <p>Last Updated on July 2023</p>
                 <hr />
             </div>

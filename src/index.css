@@ -41,6 +41,7 @@ a{
 width:261px;
 height:311px;
 border-radius: 45% 55% 22% 78% / 28% 13% 87% 72% ;
+
 animation: animate 3s ease-in-out  infinite ;
 }
 @keyframes animate {

@@ -5,7 +5,7 @@ export default function Navbar() {
     <div>
         <nav className="navbar fixed-top navbar-expand-lg bg-dark  ">
   <div className="container-fluid ">
-    <div className='logo fs-1 d-flex col-lg-4 col-md-3 col-sm-2 text-white'data-toggle="tooltip" data-placement="bottom" title="HARSHIT PANDEY">HARSHIT.</div>
+    <div className='logo fs-1 d-flex col-lg-4 col-md-3 col-sm-2 text-white'data-toggle="tooltip" data-placement="bottom" title="HARSHIT PANDEY" id="logo"> HARSHIT</div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon bg-white"></span>
     </button>
