@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card.jsx'
 export default function Project() {
   return (
-    <div className='container-fluid project pt-5' id="project">
+    <div className='container-fluid project pt-5 ' id="project">
         <div className='d-flex flex-column justify-content-center w-100 h-100'>
         <div className='pb-3 fs-1 d-flex justify-content-center text-decoration-underline fw-bold text-warning'>Project ⚒️</div>
         <div className="box d-flex flex-wrap pt-5">

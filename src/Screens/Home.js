@@ -5,6 +5,7 @@ import About from '../Components/About'
 import Education from '../Components/Education'
 import Project from '../Components/Project'
 import Contact from '../Components/Contact'
+import {Curve} from '../Components/Curve'
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
     <div className='home ' id="home">
         <Navbar/>
          <Head />
+         <Curve />
          <About />
          <Education />
          <Project />

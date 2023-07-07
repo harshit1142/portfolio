@@ -106,3 +106,34 @@ animation: animate 3s ease-in-out  infinite ;
   height: 200px;
   border-radius: 50%;
 }
+/* .about{
+  position: relative;
+}
+.about::before{
+   content: '';
+   width: 100%;
+   height: 200px;
+   background-color: beige;
+   position: absolute;
+   top: 0;
+   left: 0;
+
+} */
+.bubble{
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.bubble::before {
+  content: '';
+  width: 100%;
+  height:100%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom:0;
+  z-index: 5;
+  width: 100%;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  height: 85%;
+}
