@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from './profile.jpg';
-import { AiFillGithub ,AiFillLinkedin,AiOutlineWhatsApp,AiOutlineCopyrightCircle} from "react-icons/ai";
+import { AiFillGithub ,AiFillLinkedin,AiOutlineCopyrightCircle} from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 
 export default function Contact() {

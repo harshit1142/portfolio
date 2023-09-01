@@ -28,9 +28,7 @@ export default function Education() {
                     <h2>St.Basil's School</h2>
                     <p>Basti,Uttar Pradesh</p>
                     <h6>Till January 2021</h6>
-                    <h5>Science And Mathematics</h5>
-                    <h5>Class 10 :- 90.80%</h5>
-                    <h5>Class 12 :- 94.25%</h5>
+                    <h5>Science And Mathematics</h5> 
                 </div>
                 <hr />
             </div>  
