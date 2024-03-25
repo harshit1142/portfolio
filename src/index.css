@@ -9,6 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   list-style: none;
   text-decoration: none;
+  width: 100%;
+  overflow-x: hidden;
 }
 .logo{
   font-family: Bebas Neus;
@@ -34,17 +36,17 @@ a{
   z-index: 10;
 }
 .head{
+  z-index: -1;
   width: 100%;
-  height: 700px;
+  height: 650px;
+  overflow-x: hidden;
 }
-.style-border{  
-  /* border: 13px solid wheat; */
 
-}
 .pro-img ,.s-pro-img{
 width:261px;
 height:311px;
 border-radius: 45% 55% 22% 78% / 28% 13% 87% 72% ;
+background-color: white;
 
 animation: animate 3s ease-in-out  infinite ;
 }
@@ -124,6 +126,7 @@ animation: animate 3s ease-in-out  infinite ;
 
 } */
 .bubble{
+  z-index:11;
   width: 100%;
   height: 50px;
   position: relative;
@@ -136,8 +139,25 @@ animation: animate 3s ease-in-out  infinite ;
   border-top-right-radius: 50% 100%;
   position: absolute;
   bottom:0;
-  z-index: 5;
+  z-index: 11;
   width: 100%;
   background-image: linear-gradient(to right, #141e30, #243b55);
   height: 85%;
+}
+
+
+.achievement{
+  background: linear-gradient(35%,green,pink);
+}
+#main{
+  position: absolute;
+  z-index: -4;
+  width: 90%;
+  /* overflow: hidden; */
+}
+
+
+#root{
+  width: 100vw;
+  overflow-x: hidden;
 }

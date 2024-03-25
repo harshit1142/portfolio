@@ -6,6 +6,7 @@ import Education from '../Components/Education'
 import Project from '../Components/Project'
 import Contact from '../Components/Contact'
 import {Curve} from '../Components/Curve'
+import Achievement from '../Components/Achievement'
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
          <About />
          <Education />
          <Project />
+         <Achievement />
          <Contact />
     </div>
   )

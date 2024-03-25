@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Navbar() {
+
+
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
+
   return (
     <div>
-        <nav className="navbar fixed-top navbar-expand-lg bg-dark  ">
+      <nav className={colorChange ? "navbar fixed-top navbar-expand-lg bg-dark  " :"navbar fixed-top navbar-expand-lg bg-transparent  "}>
   <div className="container-fluid ">
     <div className='logo fs-1 d-flex col-lg-4 col-md-4 col-sm-4 text-white'data-toggle="tooltip" data-placement="bottom" title="HARSHIT PANDEY" id="logo"> HarshitPandey.in</div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +34,7 @@ export default function Navbar() {
           <a className="nav-link text-white btn btn-outline-primary" href="#project">PROJECTS</a>
         </li>       
         <li className="nav-item">
-          <a className="nav-link disabled text-white btn btn-outline-primary" href="#achievement" tabindex="-1" aria-disabled="true">ACHIEVEMENTS</a>
+          <a className="nav-link  text-white btn btn-outline-primary" href="#achievement" >ACHIEVEMENTS</a>
         </li>
         <li className="nav-item">
           <a className="nav-link text-white btn btn-outline-primary" href="#contact">CONTACT</a>

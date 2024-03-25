@@ -6,10 +6,12 @@ export default function Card({title,link,discription,tech,fork,star}) {
            <div className="box p-2 text-white">
             <h5 className='text-success'>{title}</h5>
            <span>{discription}</span>
-           <div className='d-flex'>
-            <span className='p-3 text-warning'>{tech}</span>
-            <span className='p-3'>{fork} fork</span>
-            <span className='p-3'>{star} star</span>
+           <div className='d-flex flex-column'>
+            <div className='p-3 text-warning'>{tech}</div>
+            <div className='d-flex'>
+            <div className='p-3'>{fork} fork</div>
+            <div className='p-3'>{star} star</div>
+            </div>
            </div>
            </div>
            </a>

@@ -1,7 +1,9 @@
 import React from 'react'
-import profile from './profile.jpg';
+// import profile from './profile.jpg';
 import { AiFillGithub ,AiFillLinkedin,AiOutlineCopyrightCircle} from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
+
+const profile = "https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-coder-clipart-boy-working-with-computer-game-on-the-desk-vector-png-image_6804917.png";
 
 export default function Contact() {
   return (
@@ -36,7 +38,7 @@ export default function Contact() {
             <div className="row">
             <div className='icon d-flex flex-column align-content-center  flex-wrap '>
                 <p> <AiOutlineCopyrightCircle /> Made with 💗 by Harshit Pandey. </p>
-                <p>Last Updated on July 2023</p>
+                <p>Last Updated on March 2024</p>
                 <hr />
             </div>
             </div>

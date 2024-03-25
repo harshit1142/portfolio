@@ -1,4 +1,5 @@
 import Home from "./Screens/Home";
+import '../src/'
 
 
 function App() {
