@@ -157,7 +157,7 @@ animation: animate 3s ease-in-out  infinite ;
 .body{
   width: 100vw;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 #root{
