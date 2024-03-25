@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaNode,FaHtml5,FaCss3Alt,FaJava,FaBootstrap ,FaJs,FaGitAlt,FaPython,FaReact} from "react-icons/fa";
+import { FaNode,FaHtml5,FaCss3Alt,FaJava ,FaJs,FaGitAlt,FaReact} from "react-icons/fa";
 import { DiMongodb,DiNpm } from "react-icons/di";
 import { TbBrandSocketIo, TbBrandRedux } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
