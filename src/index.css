@@ -168,3 +168,23 @@ animation: animate 3s ease-in-out  infinite ;
   width: 100%;
   overflow-x: hidden!important;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 191, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  /* border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+  /* border-radius: 20px; */
+}
+
